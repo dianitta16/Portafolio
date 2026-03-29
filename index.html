@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio — [Tu Nombre]</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">[Tu Nombre]</div>
+    <ul class="nav-links">
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#testimonios">Testimonios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-avatar">
+        <img src="foto.jpg" alt="[Tu Nombre]" />
+      </div>
+      <div class="hero-badge">✨ Disponible para proyectos</div>
+      <h1>
+        Hola, soy<br>
+        <span class="highlight">[Tu Nombre]</span>
+      </h1>
+      <p>Desarrollador Full Stack apasionado por construir productos digitales con impacto real y experiencias que los usuarios aman.</p>
+      <a href="#proyectos" class="btn">Ver mis proyectos</a>
+
+      <!-- Stats -->
+      <div class="stats-row">
+        <div class="stat-item">
+          <div class="stat-bubble purple"></div>
+          <span class="stat-number">6+</span>
+          <span class="stat-label">Proyectos</span>
+        </div>
+        <div class="stat-item">
+          <div class="stat-bubble blue"></div>
+          <span class="stat-number">3K+</span>
+          <span class="stat-label">Usuarios activos</span>
+        </div>
+        <div class="stat-item">
+          <div class="stat-bubble pink"></div>
+          <span class="stat-number">5+</span>
+          <span class="stat-label">Años de exp.</span>
+        </div>
+        <div class="stat-item">
+          <div class="stat-bubble yellow"></div>
+          <span class="stat-number">4.9/5</span>
+          <span class="stat-label">Valoración</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section id="sobre-mi">
+    <div class="section">
+      <h2>Sobre mí</h2>
+      <p class="section-subtitle">Quién soy y qué hago</p>
+      <div class="about-grid">
+        <div>
+          <div class="avatar-box" aria-label="Foto de perfil">
+            <img src="foto.jpg" alt="[Tu Nombre]" />
+          </div>
+        </div>
+        <div class="about-text">
+          <p>Soy un desarrollador apasionado por construir productos digitales con impacto real. Me especializo en tecnologías web modernas y soluciones en la nube con AWS.</p>
+          <p>Cuando no estoy programando, exploro nuevas tecnologías y contribuyo a proyectos open source. Actualmente enfocado en arquitecturas serverless y experiencias de usuario deliciosas.</p>
+          <a href="#" class="btn btn-outline">Descargar CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="section-alt">
+    <div class="section-inner">
+      <h2>Proyectos</h2>
+      <p class="section-subtitle">Lo que he construido</p>
+      <div class="projects-grid">
+        <div class="card">
+          <div class="card-color-dot"></div>
+          <h3>ShopFlow</h3>
+          <p>Plataforma de e-commerce serverless con carrito en tiempo real, pagos con Stripe y notificaciones por correo. Desplegada completamente en AWS con CI/CD automatizado.</p>
+          <div class="tags">
+            <span class="tag">React</span>
+            <span class="tag">AWS Lambda</span>
+            <span class="tag">DynamoDB</span>
+            <span class="tag">Stripe</span>
+          </div>
+          <a href="#" class="btn btn-sm">Ver proyecto</a>
+        </div>
+        <div class="card">
+          <div class="card-color-dot"></div>
+          <h3>DataPulse</h3>
+          <p>Dashboard de analítica en tiempo real que procesa millones de eventos por día usando Kinesis y los visualiza con gráficas interactivas. Reduce costos un 40%.</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">AWS Kinesis</span>
+            <span class="tag">S3</span>
+            <span class="tag">Chart.js</span>
+          </div>
+          <a href="#" class="btn btn-sm">Ver proyecto</a>
+        </div>
+        <div class="card">
+          <div class="card-color-dot"></div>
+          <h3>ChatBot IA</h3>
+          <p>Asistente conversacional para soporte al cliente integrado con Amazon Bedrock. Responde preguntas frecuentes, escala tickets y aprende del historial.</p>
+          <div class="tags">
+            <span class="tag">TypeScript</span>
+            <span class="tag">Amazon Bedrock</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">PostgreSQL</span>
+          </div>
+          <a href="#" class="btn btn-sm">Ver proyecto</a>
+        </div>
+        <div class="card">
+          <div class="card-color-dot"></div>
+          <h3>AuthVault</h3>
+          <p>Librería open source de autenticación con soporte para OAuth 2.0, MFA y gestión de sesiones. Más de 500 estrellas en GitHub y usada en 30+ proyectos.</p>
+          <div class="tags">
+            <span class="tag">TypeScript</span>
+            <span class="tag">OAuth 2.0</span>
+            <span class="tag">JWT</span>
+            <span class="tag">Open Source</span>
+          </div>
+          <a href="#" class="btn btn-sm">Ver proyecto</a>
+        </div>
+        <div class="card">
+          <div class="card-color-dot"></div>
+          <h3>TravelMap</h3>
+          <p>App móvil-first para planear viajes con mapas interactivos, itinerarios colaborativos y recomendaciones basadas en IA. Más de 2,000 usuarios activos mensuales.</p>
+          <div class="tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">Mapbox</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">PWA</span>
+          </div>
+          <a href="#" class="btn btn-sm">Ver proyecto</a>
+        </div>
+        <div class="card">
+          <div class="card-color-dot"></div>
+          <h3>DevOps Pipeline</h3>
+          <p>Plantilla de infraestructura como código para despliegues multi-región en AWS. Incluye monitoreo con CloudWatch, alertas automáticas y rollback en caso de fallo.</p>
+          <div class="tags">
+            <span class="tag">Terraform</span>
+            <span class="tag">AWS CDK</span>
+            <span class="tag">GitHub Actions</span>
+            <span class="tag">Docker</span>
+          </div>
+          <a href="#" class="btn btn-sm">Ver proyecto</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section id="habilidades">
+    <div class="section">
+      <h2>Habilidades</h2>
+      <p class="section-subtitle">Tecnologías que domino</p>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-icon">⚡</span>
+            <span class="skill-name">JavaScript</span>
+            <span class="skill-pct">90%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-level="90"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-icon">⚛️</span>
+            <span class="skill-name">React</span>
+            <span class="skill-pct">85%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-level="85"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-icon">🐍</span>
+            <span class="skill-name">Python</span>
+            <span class="skill-pct">75%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-level="75"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-icon">☁️</span>
+            <span class="skill-name">AWS</span>
+            <span class="skill-pct">70%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-level="70"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-icon">🐳</span>
+            <span class="skill-name">Docker</span>
+            <span class="skill-pct">65%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-level="65"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-icon">🗄️</span>
+            <span class="skill-name">SQL</span>
+            <span class="skill-pct">80%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill" data-level="80"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section id="testimonios" class="section-alt">
+    <div class="section-inner">
+      <h2>Testimonios</h2>
+      <p class="section-subtitle">Lo que dicen quienes han trabajado conmigo</p>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p>"Su enfoque técnico transformó nuestra plataforma. Los usuarios adoran la nueva experiencia y nuestro engagement aumentó un 300%. Altamente recomendado."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar av1">👩</div>
+            <div>
+              <div class="author-name">Ana García</div>
+              <div class="author-role">CEO, TechStart MX</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p>"Trabajar con él fue un placer. Su atención al detalle y capacidad para crear interfaces intuitivas es sobresaliente. El proyecto se entregó antes de tiempo."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar av2">👨</div>
+            <div>
+              <div class="author-name">Carlos Mendoza</div>
+              <div class="author-role">Founder, ShopCute</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p>"Dio vida a nuestra visión con una arquitectura cloud impecable. La solución superó nuestras expectativas y nuestros usuarios no pueden dejar de usarla."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar av3">👩</div>
+            <div>
+              <div class="author-name">Laura Sánchez</div>
+              <div class="author-role">Product Manager, FitBuddy</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <div class="section">
+      <h2>Contacto</h2>
+      <p class="section-subtitle">¿Tienes un proyecto en mente? Hablemos.</p>
+      <div class="contact-layout">
+        <div class="contact-info">
+          <p>Estoy disponible para proyectos freelance, colaboraciones y oportunidades de trabajo. No dudes en escribirme.</p>
+          <p>📧 [Tu Email]<br>📍 [Tu Ciudad], México</p>
+          <div class="social-links">
+            <a href="#" aria-label="GitHub">GitHub</a>
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="Twitter">Twitter</a>
+          </div>
+        </div>
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <input type="text" placeholder="Tu nombre" required />
+          <input type="email" placeholder="Tu email" required />
+          <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+          <button type="submit" class="btn">Enviar mensaje</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 [Tu Nombre] · Hecho con ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
